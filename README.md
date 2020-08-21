@@ -15,9 +15,9 @@ Video presentations to be presented at [ECCV'20](https://eccv2020.eu/) can be fo
 |:---:|:---:|
 | <a href="https://drive.google.com/file/d/1Gha4KOlNG8qEdpU23yQJTjUVtaLHm_Ev/preview"> <img src="https://drive.google.com/uc?export=view&id=1o3_VPzCvZ-aeXl65uITnvssmXjx3bijc" alt="1min short video" height="258" width="358"> </a> | <a href="https://drive.google.com/file/d/1QlByA9wa5Ty9vAJlUyc9EPbV3Yk6K0J0/preview"> <img src="https://drive.google.com/uc?export=view&id=1yj4SMhL9c6TfyAs4liIn0TDr8MeXaW8_" alt="10min long video" height="248" width="358"> |
 	
-If you find our work useful in your research, please consider citing our paper:
+If you find our work useful in your research, please consider **citing** our paper:
 ```
-@inproceedings{armaganeccv2020,
+@InProceedings{armaganeccv2020,
  title   = {Measuring Generalisation to Unseen Viewpoints, Articulations, Shapes and Objects for 3D Hand Pose Estimation under Hand-Object Interaction},
  author  = {Anil Armagan and Guillermo Garcia-Hernando and Seungryul Baek and Shreyas Hampali and Mahdi Rad and Zhaohui Zhang and Shipeng Xie and MingXiu Chen and Boshen Zhang and Fu Xiong and Yang Xiao and Zhiguo Cao and Junsong Yuan and Pengfei Ren and Weiting Huang and Haifeng Sun and Marek Hr\'{u}z and Jakub Kanis and Zden\v{e}k Kr\v{n}oul and Qingfu Wan and Shile Li and Linlin Yang and Dongheui Lee and Angela Yao and Weiguo Zhou and Sijia Mei and Yunhui Liu and Adrian Spurr and Umar Iqbal and Pavlo Molchanov and Philippe Weinzaepfel and Romain Br\'{e}gier and Gr\'{e}gory Rogez and Vincent Lepetit and Tae-Kyun Kim},
  booktitle = {European Conference on Computer Vision ({ECCV})},
@@ -54,7 +54,7 @@ This code has been written and modified by Anil Armagan and Seungryul Baek using
 
 Thanks to the below sources we are able to provide this code:
 - [MANO model](https://www.is.mpg.de/uploads_file/attachment/attachment/392/Embodied_Hands_SiggraphAsia2017.pdf) is licensed under: http://mano.is.tue.mpg.de/license 
-- The provided MANO class is adapted from https://github.com/MandyMo/pytorch_HMR/blob/master/src/SMPL.py which is a source code of a great work by [Zhang et al.](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_End-to-End_Hand_Mesh_Recovery_From_a_Monocular_RGB_Image_ICCV_2019_paper.pdf).
+- The provided MANO class is adapted from [PyTorch implementation](https://github.com/MandyMo/pytorch_HMR/blob/master/src/SMPL.py) of a great work by [Kanazawa et al.](https://arxiv.org/pdf/1712.06584.pdf).
 - Rendering codes for Task 3 MANO model is implemented with [OpenDr](https://github.com/mattloper/opendr).
 
 ```
@@ -75,16 +75,16 @@ Thanks to the below sources we are able to provide this code:
 	journal = {arXiv e-print arXiv:1907.01481v1},
 	year = {2019}
 }
-@inproceedings{sbaekcvpr2019,
+@InProceedings{sbaekcvpr2019,
 	title={Pushing the envelope for RGB-based dense 3D hand pose estimation via neural rendering},
 	author={Seungryul Baek and Kwang In Kim and Tae-Kyun Kim},
 	journal={Proceedings of the {IEEE} Conference on Computer Vision and Pattern Recognition ({CVPR})},
 	year={2019}
 }
-@inproceedings{zhang2019end,
-	title={End-to-end Hand Mesh Recovery from a Monocular RGB Image},
-	author={Zhang, Xiong and Li, Qiang and Zhang, Wenbo and Zheng, Wen},
-	journal={Proceedings of the {IEEE} International Conference on Computer Vision ({ICCV})},
-	year={2019}
+@InProceedings{hmrKanazawa17,
+  title={End-to-end Recovery of Human Shape and Pose},
+  author = {Angjoo Kanazawa and Michael J. Black and David W. Jacobs and Jitendra Malik},
+  booktitle={Computer Vision and Pattern Regognition (CVPR)},
+  year={2018}
 }
 ```
