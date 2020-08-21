@@ -1,0 +1,8 @@
+moderngl==5.5.2
+opendr==0.78
+torch==0.4.1
+opencv-python
+argparse
+pickle
+numpy
+matplotlib
