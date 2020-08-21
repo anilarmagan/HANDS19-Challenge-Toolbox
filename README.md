@@ -27,12 +27,14 @@ If you find our work useful in your research, please consider citing our paper:
 
 ### Getting Started
 - Download the challenge dataset. HANDS'19 is hosted on [CodaLab](https://competitions.codalab.org/competitions/20913#learn_the_details) for you to signin and participate. Please fill the corresponding form on CodaLab to get access to the dataset. Please follow the [challenge website](https://sites.google.com/view/hands2019/challenge) for more details on the dataset.
-- "src" directory of this repository should be placed under the parent directory of the HANDS'19 dataset.
-- Download the MANO right hand model from [MANO download page](http://mano.is.tue.mpg.de) and put it under the "src" directory.
-- Dataset images with ground-truth annotations and renderings of the MANO model can visualized with **src/visualize_task1_task2.py** for Task 1 and Task 2, and with **src/visualize_task3.py** for Task 3.
+- The toolbox should be under the same directory as HANDS'19 dataset.
+- Download the MANO right hand model from [MANO download page](http://mano.is.tue.mpg.de) and place it under the toolbox directory.
+- Dataset images with ground-truth annotations and renderings of the MANO model can visualized with **visualize_task1_task2.py** for Task 1 and Task 2, and with **visualize_task3.py** for Task 3.
 
 ```
-usage:  python3 visualize_task1_task2.py --task-id=1 --frame-id=0 --mano-model-path=./MANO_RIGHT.pkl
+usage:  cd your_directory/HANDS19-Challenge-Toolbox
+
+	python3 visualize_task1_task2.py --task-id=1 --frame-id=0 --mano-model-path=./MANO_RIGHT.pkl
 	OR
 	python3 visualize_task3.py --frame-id=0 --mano-model-path=./MANO_RIGHT.pkl
 ```
